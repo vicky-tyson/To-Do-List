@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+body{
+        background-color: #2596be;
+}
+
+.listcontainer{
+                  width: 100%;
+                  max-width: 600px;
+                  height: 400px;
+                  background: #fff;
+                  margin: 100px auto 20px;
+                  padding: 40px 30px 70px;
+                  border-radius: 8px;
+}
+
+.to-do-image{
+               width: 30px;
+               height: 40px;
+               margin-left: 30px;
+               margin-bottom: 10px;
+}
+
+.headpart{
+            display: flex;
+            
+}
+
+.input-box{
+             display: flex;
+             margin-top: 30px;
+             width: 100%;
+             align-items: center;
+             justify-content: space-between;
+}
+
+.input-box input{
+                    background-color: #d3eaf2;
+                    flex: 0.8;
+                    border: none;
+                    height: 40px;
+                    border-radius: 30px;
+                    padding-left: 10px;
+}
+
+.input-box input:focus{
+                         outline: none;
+}
+
